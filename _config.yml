@@ -6,7 +6,7 @@ url: "https://kujin521.github.io"
 baseurl: "/Ai_Studio"
 
 # 主题
-theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
 
 # 语言
 locale: zh-CN
