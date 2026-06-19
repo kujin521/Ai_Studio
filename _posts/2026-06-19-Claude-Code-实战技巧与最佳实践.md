@@ -1,8 +1,16 @@
-# Claude Code 实战技巧与最佳实践
-
-> 从会用→用好，这些技巧能让效率翻倍。
-
 ---
+title: "Claude Code 实战技巧与最佳实践"
+date: 2026-06-19
+categories:
+  - AI
+  - Claude Code
+tags:
+  - Claude Code
+  - 实战技巧
+  - AI编程
+---
+
+# Claude Code 实战技巧与最佳实践
 
 ## 一、高效提问的 4 个原则
 

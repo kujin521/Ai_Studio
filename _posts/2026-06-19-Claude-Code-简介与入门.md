@@ -1,8 +1,16 @@
-# Claude Code 简介与入门
-
-> 面向零基础初学者，带你认识 Claude Code 并完成第一次使用。
-
 ---
+title: "Claude Code 简介与入门"
+date: 2026-06-19
+categories:
+  - AI
+  - Claude Code
+tags:
+  - Claude Code
+  - 入门
+  - AI编程
+---
+
+# Claude Code 简介与入门
 
 ## 一、什么是 Claude Code？
 

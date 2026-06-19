@@ -1,8 +1,16 @@
-# Claude Code 核心功能详解
-
-> 从零掌握 Claude Code 的核心能力，看完就能用起来。
-
 ---
+title: "Claude Code 核心功能详解"
+date: 2026-06-19
+categories:
+  - AI
+  - Claude Code
+tags:
+  - Claude Code
+  - 核心功能
+  - AI编程
+---
+
+# Claude Code 核心功能详解
 
 ## 一、Claude Code 的四项基本功
 
