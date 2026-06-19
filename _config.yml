@@ -1,0 +1,62 @@
+# 站点设置
+title: AI Studio
+subtitle: AI 学习笔记与总结
+description: 使用 AI 生成技术学习文档，构建个人知识库
+url: "https://kujin521.github.io"
+baseurl: "/Ai_Studio"
+
+# 主题
+theme: minimal-mistakes-jekyll
+
+# 语言
+locale: zh-CN
+
+# 构建设置
+markdown: kramdown
+highlighter: rouge
+
+# 文章永久链接格式
+permalink: /:year/:month/:day/:title/
+
+# 文章分页
+paginate: 10
+paginate_path: /page:num/
+
+# 作者信息
+author:
+  name: "Kujin"
+  avatar:
+  bio: "AI 技术学习者"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/kujin521"
+
+# 导航
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: false
+      related: true
+
+# 插件
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# 排除文件
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .gitignore
