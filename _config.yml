@@ -32,7 +32,10 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/kujin521"
 
-# 导航
+# 导航面包屑
+breadcrumbs: true
+
+# 文章默认设置
 defaults:
   - scope:
       path: ""
@@ -44,6 +47,14 @@ defaults:
       comments: false
       share: false
       related: true
+      toc: true
+      toc_label: "目录"
+      toc_icon: "list"
+      toc_sticky: true
+
+# 包含自定义页面
+include:
+  - _pages
 
 # 插件
 plugins:
