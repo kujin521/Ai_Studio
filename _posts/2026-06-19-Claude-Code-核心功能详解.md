@@ -7,10 +7,8 @@ categories:
 tags:
   - Claude Code
   - 核心功能
-  - AI编程
+  - AI 编程
 ---
-
-# Claude Code 核心功能详解
 
 ## 一、Claude Code 的四项基本功
 

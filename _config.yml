@@ -1,73 +1,170 @@
-# 站点设置
+# The Site Configuration
+
+# Import the theme
+theme: jekyll-theme-chirpy
+
+# The language of the webpage
+lang: zh-CN
+locale: zh-CN
+
+timezone: Asia/Shanghai
+
+# jekyll-seo-tag settings
 title: AI Studio
-subtitle: AI 学习笔记与总结
-description: 使用 AI 生成技术学习文档，构建个人知识库
+tagline: AI 学习笔记与总结
+description: >-
+  使用 AI 生成技术学习文档，构建个人知识库
 url: "https://kujin521.github.io"
 baseurl: "/Ai_Studio"
 
-# 主题
-remote_theme: mmistakes/minimal-mistakes
+github:
+  username: kujin521
 
-# 语言
-locale: zh-CN
+twitter:
+  username:
 
-# 构建设置
-markdown: kramdown
-highlighter: rouge
-
-# 文章永久链接格式
-permalink: /:year/:month/:day/:title/
-
-# 文章分页
-paginate: 10
-paginate_path: /page:num/
-
-# 作者信息
-author:
-  name: "Kujin"
-  avatar:
-  bio: "AI 技术学习者"
+social:
+  name: Kujin
+  email:
+  fediverse_handle:
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/kujin521"
+    - https://github.com/kujin521
 
-# 导航面包屑
-breadcrumbs: true
+webmaster_verifications:
+  google:
+  bing:
+  alexa:
+  yandex:
+  baidu:
+  facebook:
 
-# 文章默认设置
+analytics:
+  google:
+    id:
+  goatcounter:
+    id:
+  umami:
+    id:
+    domain:
+  matomo:
+    id:
+    domain:
+  cloudflare:
+    id:
+  fathom:
+    id:
+
+pageviews:
+  provider:
+
+theme_mode:
+cdn: ""
+avatar:
+social_preview_image:
+
+toc: true
+
+actions:
+  edit_post:
+    enabled: false
+    url: ""
+    static_url: false
+
+comments:
+  provider:
+  disqus:
+    shortname:
+  utterances:
+    repo:
+    issue_term:
+  giscus:
+    repo:
+    repo_id:
+    category:
+    category_id:
+    mapping:
+    strict:
+    input_position:
+    lang:
+    reactions_enabled:
+
+assets:
+  self_host:
+    enabled:
+    env:
+
+pwa:
+  enabled: true
+  cache:
+    enabled: true
+    deny_paths:
+      - "/Ai_Studio"
+
+paginate: 10
+
+kramdown:
+  footnote_backlink: "&#8617;&#xfe0e;"
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
 defaults:
   - scope:
       path: ""
       type: posts
     values:
-      layout: single
-      author_profile: true
-      read_time: true
+      layout: post
       comments: false
-      share: false
-      related: true
       toc: true
-      toc_label: "目录"
-      toc_icon: "list"
-      toc_sticky: true
+      permalink: /posts/:title/
+  - scope:
+      path: _drafts
+    values:
+      comments: false
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
 
-# 包含自定义页面
-include:
-  - _pages
+sass:
+  style: compressed
 
-# 插件
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+
 plugins:
   - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-archives
   - jekyll-sitemap
-  - jekyll-gist
   - jekyll-feed
-  - jekyll-include-cache
 
-# 排除文件
 exclude:
+  - "*.gem"
   - Gemfile
   - Gemfile.lock
   - node_modules
   - vendor
   - .gitignore
+  - .sass-cache
+  - .jekyll-cache
+  - .jekyll-metadata

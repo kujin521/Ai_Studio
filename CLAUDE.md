@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 - **项目名称**: Ai_Studio
 - **目的**: 学习 AI 技术，利用 AI 生成学习文档和总结，并通过 GitHub 构建个人博客页面
-- **当前状态**: 博客已搭建完成，已有 4 篇 AI 生成的学习文档
+- **当前状态**: 博客已迁移为 Chirpy 主题，已有 4 篇 AI 生成的学习文档
 - **IDE**: IntelliJ IDEA
 - **版本控制**: Git（master 分支，远程: https://github.com/kujin521/Ai_Studio.git）
 - **博客地址**: https://kujin521.github.io/Ai_Studio/
@@ -15,30 +15,35 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ```
 Ai_Studio/
-├── _config.yml                           # Jekyll 配置（Minimal Mistakes 主题）
+├── _config.yml                           # Jekyll 配置（Chirpy 主题）
 ├── Gemfile                               # Ruby 依赖管理
-├── index.md                              # 博客首页
-├── about.md                              # 关于页
-├── 404.html                              # 自定义 404 页面
+├── index.html                            # Chirpy 首页入口
+├── .github/workflows/pages-deploy.yml    # GitHub Pages Actions 部署流程
 ├── .gitignore                            # 排除 IDE/构建文件
 ├── CLAUDE.md                             # 本文件
 ├── 项目说明.md                            # 原始项目描述
 ├── GitHub个人博客实现文档.md              # 博客搭建方案对比文档
 ├── README.md                             # GitHub 仓库首页说明
-├── assets/images/                        # 图片资源目录
-├── _posts/                               # 博客文章目录（.md 文件）
-│   ├── 2026-06-19-AI-Studio-项目启动.md
-│   ├── 2026-06-19-Claude-Code-简介与入门.md
-│   ├── 2026-06-19-Claude-Code-核心功能详解.md
-│   └── 2026-06-19-Claude-Code-实战技巧与最佳实践.md
-└── _pages/                               # 自定义页面目录
+├── assets/                               # Chirpy 静态资源
+├── _data/                                # Chirpy 数据与本地化配置
+├── _sass/                                # Chirpy 样式源码
+├── _tabs/                                # Chirpy 顶部/侧边导航页面
+│   ├── about.md
+│   ├── archives.md
+│   ├── categories.md
+│   └── tags.md
+└── _posts/                               # 博客文章目录（.md 文件）
+    ├── 2026-06-19-AI-Studio-项目启动.md
+    ├── 2026-06-19-Claude-Code-简介与入门.md
+    ├── 2026-06-19-Claude-Code-核心功能详解.md
+    └── 2026-06-19-Claude-Code-实战技巧与最佳实践.md
 ```
 
 ## 技术栈
 
 - **博客框架**: Jekyll（GitHub Pages 原生渲染）
-- **主题**: Minimal Mistakes（`remote_theme: mmistakes/minimal-mistakes`）
-- **构建**: GitHub Actions 自动构建，push 即发布
+- **主题**: Chirpy（`theme: jekyll-theme-chirpy`）
+- **构建**: GitHub Actions 自动构建，push 到 master 后发布
 - **语言**: 中文（`locale: zh-CN`）
 
 ## 开发命令

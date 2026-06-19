@@ -7,10 +7,8 @@ categories:
 tags:
   - Claude Code
   - 实战技巧
-  - AI编程
+  - AI 编程
 ---
-
-# Claude Code 实战技巧与最佳实践
 
 ## 一、高效提问的 4 个原则
 

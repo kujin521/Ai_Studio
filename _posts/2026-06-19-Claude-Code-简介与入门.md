@@ -7,10 +7,8 @@ categories:
 tags:
   - Claude Code
   - 入门
-  - AI编程
+  - AI 编程
 ---
-
-# Claude Code 简介与入门
 
 ## 一、什么是 Claude Code？
 
