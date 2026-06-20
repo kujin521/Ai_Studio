@@ -167,3 +167,10 @@ Claude Code 最适合与有经验的 Java 开发者配合使用。你越了解 S
 当这些流程稳定后，Claude Code 会成为 Spring Boot 项目中非常高效的工程化助手，而不仅仅是一个“会写代码的聊天窗口”。
 
 ---
+
+## 系列导航
+
+- [返回系列目录]({{ '/spring-boot-series/' | relative_url }})
+- 上一篇：[自定义 Skills 与高级集成]({% post_url 2026-06-20-Claude-Code-Spring-Boot-深度实战-09-Skills与高级集成 %})
+
+---

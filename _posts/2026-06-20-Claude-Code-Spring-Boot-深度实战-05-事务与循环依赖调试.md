@@ -313,3 +313,11 @@ gradle test --tests UserServiceTransactionTest
 `@Transactional` 失效和循环依赖不是简单的注解问题，而是 Spring AOP 代理机制和 Bean 设计问题。Claude Code 可以帮助你把日志、代码和框架机制串起来分析。最小修复可以使用 `ApplicationContext.getBean` 和 `@Lazy`，长期方案则应拆分 Service 职责，避免互相依赖。下一篇将进入综合案例：基于 Testcontainers 生成集成测试套件。
 
 ---
+
+## 系列导航
+
+- [返回系列目录]({{ '/spring-boot-series/' | relative_url }})
+- 上一篇：[从 Entity 生成 CRUD REST API]({% post_url 2026-06-20-Claude-Code-Spring-Boot-深度实战-04-CRUD生成 %})
+- 下一篇：[基于 Testcontainers 生成集成测试套件]({% post_url 2026-06-20-Claude-Code-Spring-Boot-深度实战-06-Testcontainers集成测试 %})
+
+---

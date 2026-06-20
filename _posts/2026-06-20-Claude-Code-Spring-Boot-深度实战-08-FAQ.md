@@ -279,3 +279,11 @@ gradle test --tests UserServiceTest
 高频问题大多可以通过三种方式避免：第一，把规范写进 `CLAUDE.md`；第二，提示词明确任务边界；第三，生成后必须用编译和测试验证。Claude Code 是强大的协作工具，但最终质量仍取决于开发者是否给出清晰约束并认真 review。
 
 ---
+
+## 系列导航
+
+- [返回系列目录]({{ '/spring-boot-series/' | relative_url }})
+- 上一篇：[最佳实践与高效技巧]({% post_url 2026-06-20-Claude-Code-Spring-Boot-深度实战-07-最佳实践 %})
+- 下一篇：[自定义 Skills 与高级集成]({% post_url 2026-06-20-Claude-Code-Spring-Boot-深度实战-09-Skills与高级集成 %})
+
+---

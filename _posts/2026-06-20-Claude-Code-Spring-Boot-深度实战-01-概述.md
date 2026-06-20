@@ -118,3 +118,10 @@ gradle test --tests UserControllerIntegrationTest
 Claude Code 在 Spring Boot 项目中的最大价值不是“替你写所有代码”，而是**把重复性开发、错误定位和测试补全变成可对话、可迭代、可约束的流程**。对有 Spring Boot 基础的 Java 开发者来说，正确的使用方式是：先定义规范，再让 Claude Code 在规范内生成、修改和验证代码。下一篇将从 Spring Boot 项目专属的 `CLAUDE.md` 配置开始。
 
 ---
+
+## 系列导航
+
+- [返回系列目录]({{ '/spring-boot-series/' | relative_url }})
+- 下一篇：[环境准备与 CLAUDE.md 配置]({% post_url 2026-06-20-Claude-Code-Spring-Boot-深度实战-02-环境准备 %})
+
+---

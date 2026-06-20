@@ -214,3 +214,11 @@ Skills 复用高频任务模板
 Claude Code 的关键不是“能不能写代码”，而是能否在受控上下文中持续执行开发循环。对 Spring Boot 项目来说，必须掌握 Agent Loop、Plan Mode、Context 管理、CLAUDE.md 和 Skills。下一篇将进入第一个完整实操案例：从 JPA Entity 生成全套 CRUD REST API。
 
 ---
+
+## 系列导航
+
+- [返回系列目录]({{ '/spring-boot-series/' | relative_url }})
+- 上一篇：[环境准备与 CLAUDE.md 配置]({% post_url 2026-06-20-Claude-Code-Spring-Boot-深度实战-02-环境准备 %})
+- 下一篇：[从 Entity 生成 CRUD REST API]({% post_url 2026-06-20-Claude-Code-Spring-Boot-深度实战-04-CRUD生成 %})
+
+---

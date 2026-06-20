@@ -321,3 +321,11 @@ gradle test
 从 Entity 生成 CRUD 是 Claude Code 在 Spring Boot 项目中最容易产生价值的场景。关键不是让它“随便生成”，而是通过提示词锁定分层、命名、返回类型、事务边界和文件范围。下一篇将进入进阶案例：修复 `@Transactional` 事务失效与循环依赖问题。
 
 ---
+
+## 系列导航
+
+- [返回系列目录]({{ '/spring-boot-series/' | relative_url }})
+- 上一篇：[Agent Loop、Plan Mode 与上下文管理]({% post_url 2026-06-20-Claude-Code-Spring-Boot-深度实战-03-核心概念 %})
+- 下一篇：[修复 @Transactional 事务失效与循环依赖]({% post_url 2026-06-20-Claude-Code-Spring-Boot-深度实战-05-事务与循环依赖调试 %})
+
+---

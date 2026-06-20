@@ -336,3 +336,11 @@ gradle test --tests UserControllerIntegrationTest
 Testcontainers 可以让 Spring Boot 集成测试摆脱本机数据库依赖，是团队级测试体系的重要基础。Claude Code 很适合基于 Controller 生成测试初稿，但开发者需要检查断言是否真正覆盖业务语义。下一篇将总结 Spring Boot 开发中最实用的 Claude Code 使用技巧。
 
 ---
+
+## 系列导航
+
+- [返回系列目录]({{ '/spring-boot-series/' | relative_url }})
+- 上一篇：[修复 @Transactional 事务失效与循环依赖]({% post_url 2026-06-20-Claude-Code-Spring-Boot-深度实战-05-事务与循环依赖调试 %})
+- 下一篇：[最佳实践与高效技巧]({% post_url 2026-06-20-Claude-Code-Spring-Boot-深度实战-07-最佳实践 %})
+
+---

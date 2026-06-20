@@ -226,3 +226,11 @@ gradle test --tests UserServiceTest
 Claude Code 的效率来自可控迭代。Spring Boot 开发中最实用的技巧包括：限定模块、先读规范、复杂改动先计划、完整粘贴日志、测试断言业务语义、区分测试类型、生成后给出运行命令。下一篇将整理高频 FAQ，帮助你处理使用中的常见问题。
 
 ---
+
+## 系列导航
+
+- [返回系列目录]({{ '/spring-boot-series/' | relative_url }})
+- 上一篇：[基于 Testcontainers 生成集成测试套件]({% post_url 2026-06-20-Claude-Code-Spring-Boot-深度实战-06-Testcontainers集成测试 %})
+- 下一篇：[常见问题 FAQ]({% post_url 2026-06-20-Claude-Code-Spring-Boot-深度实战-08-FAQ %})
+
+---

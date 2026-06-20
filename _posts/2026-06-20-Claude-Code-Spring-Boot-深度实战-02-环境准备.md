@@ -247,3 +247,11 @@ claude
 环境准备的核心不是安装工具，而是把项目规范写清楚。`CLAUDE.md` 越明确，Claude Code 生成的代码越接近团队标准。对于 Spring Boot 项目，必须提前约束构建命令、包结构、Lombok 规则、统一返回格式和多环境配置。下一篇将解释 Agent Loop、Plan Mode、上下文管理和 Skills 等核心概念。
 
 ---
+
+## 系列导航
+
+- [返回系列目录]({{ '/spring-boot-series/' | relative_url }})
+- 上一篇：[概述与学习路线]({% post_url 2026-06-20-Claude-Code-Spring-Boot-深度实战-01-概述 %})
+- 下一篇：[Agent Loop、Plan Mode 与上下文管理]({% post_url 2026-06-20-Claude-Code-Spring-Boot-深度实战-03-核心概念 %})
+
+---

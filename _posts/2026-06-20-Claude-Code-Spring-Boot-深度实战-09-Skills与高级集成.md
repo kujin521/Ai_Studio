@@ -225,3 +225,11 @@ Skills 适合写任务流程，例如：
 当个人使用 Claude Code 时，提示词足够；当团队反复处理相似任务时，必须沉淀 `CLAUDE.md` 和 Skills。对 Spring Boot 团队而言，最值得建设的 Skills 包括 CRUD 生成、事务诊断、集成测试生成、Controller 安全审查和 JPA 查询优化。下一篇将总结完整学习路线与进阶方向。
 
 ---
+
+## 系列导航
+
+- [返回系列目录]({{ '/spring-boot-series/' | relative_url }})
+- 上一篇：[常见问题 FAQ]({% post_url 2026-06-20-Claude-Code-Spring-Boot-深度实战-08-FAQ %})
+- 下一篇：[总结与进阶路线]({% post_url 2026-06-20-Claude-Code-Spring-Boot-深度实战-10-总结与进阶路线 %})
+
+---
